@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <remote name="github" fetch="https://github.com/jeremyczhen/"/>
+  <default revision="master"
+           remote="github"
+           sync-j="4" />
+  <project path="buildCentral" name="buildCentral.git">
+    <linkfile src="tools/buildCentral/install/mk" dest="buildCentral/mk"/>
+  </project>
+  <project path="buildCentral/workspace/fdbus" name="fdbus.git"/>
+  <project path="buildCentral/workspace/protobuf" name="protobuf.git"/>
+  <project path="buildCentral/workspace/protobus" name="protobus.git"/>
+</manifest>
